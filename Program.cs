@@ -10,7 +10,7 @@ namespace TicTacToeLowLevelDesign
     {
         static void Main(string[] args)
         {
-            TicTacToeGame game = new TicTacToeGame("Sohil", "Misba", 3);
+            TicTacToeGame game = new TicTacToeGame("Player1", "Player2", 3);
             game.StartGame();
             Console.ReadKey();
         }
