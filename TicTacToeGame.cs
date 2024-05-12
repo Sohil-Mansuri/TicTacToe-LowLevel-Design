@@ -74,7 +74,7 @@ namespace TicTacToeLowLevelDesign
 
                         if (!_playingBoard.Add(xLocationIndex, yLocationIndex, currentPlayerTurn.PlayingPiece.PieceType.ToString()))
                         {
-                            Console.WriteLine("Enter location already filled");
+                            Console.WriteLine("Entered location already filled");
                             continue;
                         }
 
